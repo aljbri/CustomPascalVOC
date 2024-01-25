@@ -1,0 +1,29 @@
+[build-system]
+requires = ['setuptools>=42']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "customVOC"
+version = "0.0.1"
+dependencies = [
+  "torchvision",
+]
+
+authors = [
+    { name="Aljbri Abdussalam", email="mr.aljbri@gmail.com" },
+    ]
+description = "Custom Pascal VOC Dataset reader for PyTorch"
+readme = {file = "README.md", content-type = "text/markdown"}
+keywords = ["Pascal VOC", "VOC", "Dataset loader", "Dataset reader"]
+
+
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    ]
+
+[project.urls]
+home-page = "https://github.com/aljbri/customPascalVOC"
+issues = "https://github.com/aljbri/customPascalVOC/issues"
